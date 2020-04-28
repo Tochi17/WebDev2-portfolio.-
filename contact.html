@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title> Contact Page</title> 
+    <link href="css/stylehome.css" rel="stylesheet">
+     <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: "Times New Roman", "Times",serif;
+    background-color: #E1F2F7 ;
+}
+ 
+.navbar { 
+  overflow: hidden;
+  background-color: #EF0D50;
+    float:none;
+ border-radius: 4px;
+  margin-top: 8px;
+  border: solid 20px #E5BACE
+}
+
+.navbar a {
+  float: left;
+  font-size: 19px;
+  color: white;
+  text-align: center;
+  padding: 13px 19px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #EF0D50;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E5BACE;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #E5BACE;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+     
+     
+     
+     
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #EF0D50;
+  padding: 60px;
+  text-align: center;
+  font-size: 35px;
+    color: white;}
+     
+  
+    
+    
+    
+  /*Contact*/  
+
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 800 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background-color:#E5BACE;
+  padding: 25px;
+  margin: 150px 0;
+}
+
+#contact h3 {
+  display: block;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 3px 0 25px;
+  display: block;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 20px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+  width: 100%;
+  border: 2px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 20px;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color:azure  ;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+ 
+/*centre the img*/ 
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+ 
+    footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color:#E5BACE;
+    font-family: "Times New Roman", "Times",serif;
+    padding: 0px 7px;
+    box-sizing: border-box;
+}
+
+    
+
+.p1 {
+    float: left;
+    font-family: "Times New Roman", "Times",serif;
+    font-size: 18px;
+}
+
+.p2 {
+    float:right;
+    font-family: "Times New Roman", "Times",serif;
+    font-size: 24px;
+    margin-right: 10%
+}     
+</style>
+</head>
+<body>
+
+  <header>
+  <h2>Contact Page</h2>
+    <p>A website created by me.</p>
+</header>  
+    
+    
+<div class="navbar">
+  <div class="dropdown">
+  <button class="dropbtn">Resources 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="about.html">About</a></div></div>
+      
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Social Media Apps 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Snapchat.html">Snapchat</a>
+      <a href="whatsapp.html">WhatsApp</a>
+      <a href="twitter.html">Twitter</a>
+    </div>
+  </div> 
+  
+  <div class="dropdown">
+    <button class="dropbtn">Social Media Tools 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="slack.html">Slack</a>
+      <a href="youtube.html">Youtube</a>
+    </div>
+  </div> 
+  <a href="contact.html">Contact</a>
+</div>
+    
+    
+     <img class="colImg center" src="image/TUD%202019_Logo.jpg" width=20% > 
+    
+    
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Contact Us</h3>
+    <h4>Contact us for more information</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+        <button name="submit" type="submit" id="contact-submit"> <a href="mailto:Tochi.Michelle@gmail.com?" subject="subject text">Submit</a></button>
+    </fieldset>
+    </form></div>
+   
+    
+    
+   <footer>       
+<p class="p1">| Social Media Apps & Tools | Designed by Tochi Ugochukwu |</p> 
+<p class="p2"><a href="sitemap.html">Sitemap</a></p>
+    </footer>
+</html>
